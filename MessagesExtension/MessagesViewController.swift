@@ -13,7 +13,6 @@ class MessagesViewController: MSMessagesAppViewController {
     
     var stickerBrowserVC: StickerBrowser!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         stickerBrowserVC = StickerBrowser(stickerSize: .regular)
@@ -21,9 +20,8 @@ class MessagesViewController: MSMessagesAppViewController {
         self.addChildViewController(stickerBrowserVC)
         stickerBrowserVC.didMove(toParentViewController: self)
         self.view.addSubview(stickerBrowserVC.view)
-        stickerBrowserVC.loadAddSticker() 
-//        stickerBrowserVC.loadStickers()
-        stickerBrowserVC.stickerBrowserView.reloadData()
+//        stickerBrowserVC.createAndLoadStickersFromWeb()
+//        stickerBrowserVC.stickerBrowserView.reloadData()
         
     }
     

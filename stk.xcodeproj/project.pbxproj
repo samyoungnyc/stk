@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B34C60C1D9AEF0F009D6D9B /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B34C60B1D9AEF0F009D6D9B /* Kingfisher.framework */; };
 		2BA3ADEC1D8F8BCF0050989A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA3ADEB1D8F8BCF0050989A /* Assets.xcassets */; };
 		2BA3ADF31D8F8BCF0050989A /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BA3ADF21D8F8BCF0050989A /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2BA3ADF81D8F8BCF0050989A /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA3ADF71D8F8BCF0050989A /* Messages.framework */; };
 		2BA3ADFB1D8F8BCF0050989A /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3ADFA1D8F8BCF0050989A /* MessagesViewController.swift */; };
 		2BA3ADFE1D8F8BCF0050989A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA3ADFC1D8F8BCF0050989A /* MainInterface.storyboard */; };
 		2BA3AE001D8F8BCF0050989A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA3ADFF1D8F8BCF0050989A /* Assets.xcassets */; };
-		2BA3AE0C1D8F8FE90050989A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA3AE0B1D8F8FE90050989A /* Alamofire.framework */; };
 		2BA3AE111D8F94A20050989A /* StickerBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA3AE101D8F94A20050989A /* StickerBrowser.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B34C60B1D9AEF0F009D6D9B /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		2BA3ADE81D8F8BCF0050989A /* stk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BA3ADEB1D8F8BCF0050989A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BA3ADED1D8F8BCF0050989A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +62,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BA3ADF81D8F8BCF0050989A /* Messages.framework in Frameworks */,
-				2BA3AE0C1D8F8FE90050989A /* Alamofire.framework in Frameworks */,
+				2B34C60C1D9AEF0F009D6D9B /* Kingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +100,7 @@
 		2BA3ADF61D8F8BCF0050989A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2B34C60B1D9AEF0F009D6D9B /* Kingfisher.framework */,
 				2BA3AE0B1D8F8FE90050989A /* Alamofire.framework */,
 				2BA3ADF71D8F8BCF0050989A /* Messages.framework */,
 			);
@@ -223,7 +225,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 			);
 			outputPaths = (
 			);
